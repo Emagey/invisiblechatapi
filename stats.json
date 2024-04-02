@@ -1,0 +1,7 @@
+{
+  "api_calls": 647,
+  "encryption_calls": 165,
+  "decryption_calls": 482,
+  "urls_found": 19,
+  "api_errors": 9
+}
