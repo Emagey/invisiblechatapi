@@ -81,6 +81,11 @@ app.post('/', (req, res) => {
   }
 })
 
+app.get('/', (req,res) => {
+  return '<h1>API for InvisibleMessages plugin | Fixed Version: <a href="https://raw.githubusercontent.com/aesyncio/invisiblechatapi/main/InvisibleMessages.zip">Click Here</a> (Uses our API, old one is down)<br>Open source | <a href="https://github.com/aesyncio/invisiblechatapi/">Click Here</a></h1>';
+})
+  
+
 app.listen(3000, async () => {
   console.log('server started');
 });
