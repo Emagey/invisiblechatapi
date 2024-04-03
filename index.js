@@ -11,7 +11,7 @@ const UrlRegex = new RegExp(
 
 app.use(function(req, res, next) {
   res.setHeader('charset', 'utf-8')
-  res.setHeader('Content-Type', 'application/json');
+  //res.setHeader('Content-Type', 'application/json');
   res.setHeader('Access-Control-Allow-Methods', 'GET,POST');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   res.setHeader('Access-Control-Allow-Origin', '*');
